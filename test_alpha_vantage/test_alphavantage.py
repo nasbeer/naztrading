@@ -16,7 +16,7 @@ import requests_mock
 
 class TestAlphaVantage(unittest.TestCase):
 
-    _API_KEY_TEST = "test"
+    _API_KEY_TEST = "2MLOHG2UYX8MTBN0"
     _API_EQ_NAME_TEST = 'MSFT'
 
     @staticmethod
