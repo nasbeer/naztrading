@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+
 from ..alpha_vantage.alphavantage import AlphaVantage
 from ..alpha_vantage.timeseries import TimeSeries
 from ..alpha_vantage.techindicators import TechIndicators
@@ -14,6 +15,11 @@ from os import path
 import requests_mock
 
 
+import pybrake
+
+notifier = pybrake.Notifier(project_id=350880,
+                            project_key='afdbb2b558aca1a7c77a9c6fae58d8f6',
+                            environment='production')
 class TestAlphaVantage(unittest.TestCase):
 
     _API_KEY_TEST = "2MLOHG2UYX8MTBN0"
