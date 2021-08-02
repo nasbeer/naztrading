@@ -257,5 +257,3 @@ You can reach/follow the Alpha Vantage team on any of the following platforms:
 
 ## Star if you like it.
 If you like or use this project, consider showing your support by starring it.
-
-:venezuela:-:de:
